@@ -1,0 +1,245 @@
+.hero_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.left {
+  flex: 1;
+}
+.left_heading {
+  font-family: "Roboto Serif", serif;
+  font-size: 57px;
+  font-weight: 500;
+  line-height: 64px;
+  letter-spacing: 0.006em;
+  text-align: left;
+  color: #1c2024;
+  padding-bottom: 28px;
+}
+.cancel_container {
+  display: flex;
+  justify-content: space-between;
+  margin: 32px 0px 64px 0px;
+  padding: 16px 16px 16px 20px;
+}
+.cancel_text_container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.cancel_text_container_head {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #1c2024;
+  margin-bottom: 0;
+}
+.cancel_text_container_text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #60646c;
+  margin-bottom: 0;
+}
+
+.user_details {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.user_details_head {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.006em;
+  color: #1c2024;
+}
+.user_details_text {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #60646c;
+}
+.additional_details {
+  margin-top: 62px;
+}
+
+.code_input {
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid #b9bbc6;
+  background-color: #ffffff;
+}
+.full_width {
+  width: 100%;
+}
+.inline-inputs {
+  display: flex;
+  margin: 24px 0px;
+  gap: 24px;
+}
+
+.inline-inputs input,
+.inline-inputs select {
+  flex: 1;
+}
+.payments_details {
+  margin-top: 62px;
+}
+.payment-form {
+  width: 100%;
+  border: 1px solid black;
+  padding: 28px 24px 0px 24px;
+  border-radius: 16px;
+  margin-top: 48px;
+}
+.payment_header {
+  display: flex;
+  justify-content: space-between;
+}
+.payment_left_header {
+  display: flex;
+  align-items: flex-end;
+  gap: 15px;
+}
+.payment_head {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #1c2024;
+  margin-bottom: 0;
+}
+.payment_method {
+  margin: 32px 0px;
+}
+.input_groups {
+  display: flex;
+  justify-content: space-between; /* Add space between the input fields */
+  margin-bottom: 20px;
+  gap: 24px;
+}
+.payments_inputs {
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid #b9bbc6;
+  width: 100%;
+}
+
+.total_payable {
+  padding: 16px 0px 32px 0px;
+  border-top: 1px solid #dddde3;
+  margin-top: 28px;
+}
+.total_payable_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.total_payable_head_right p:nth-child(1) {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  padding-bottom: 8px;
+  color: #1c2024;
+  margin-bottom: 0;
+}
+.total_payable_head_right p:nth-child(2) {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  color: #60646c;
+}
+.saving_btn {
+  display: flex;
+  gap: 5px;
+  padding: 4px 8px 4px 8px;
+  border-radius: 1000px;
+  background: #299764;
+  border: none;
+  color: #e9f9ee;
+  align-items: center;
+}
+.condition_head {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #60646c;
+}
+.cnfrm_btn {
+  margin-top: 20px;
+  padding: 16px 20px 16px 20px;
+  border-radius: 16px;
+  background: #000000;
+  border: none;
+  color: #edeef0;
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+.left_total_payable {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.006em;
+  padding-bottom: 16px;
+  margin-bottom: 0;
+}
+.pay_container {
+  display: flex;
+  justify-content: space-between;
+  margin: 32px 0px;
+  padding: 24px;
+  align-items: flex-end;
+}
+.pay_text_container_head {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #8b8d98;
+  margin-bottom: 0;
+}
+.totalpayable_container {
+  display: flex;
+  justify-content: flex-start;
+  padding: 24px;
+  align-items: baseline;
+  gap: 8px;
+}
+
+@media (max-width: 768px) {
+  .hero_container {
+    flex-direction: column-reverse;
+  }
+  .left_heading {
+    display: none;
+  }
+  .inline-inputs {
+    flex-direction: column; /* Stack inputs vertically */
+    gap: 16px; /* Reduce the gap between inputs */
+  }
+
+  .inline-inputs input,
+  .inline-inputs select {
+    width: 100%; /* Set input fields to full width */
+  }
+  .input_groups {
+    flex-direction: column;
+  }
+  .total_payable_head {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+}
